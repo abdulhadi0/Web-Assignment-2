@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Sun, Cloud, CloudRain, CloudSnow, CloudLightning, Loader2, Search } from 'lucide-react';
 
-const API_KEY = 'ce44e8404f016d5d407e20316b039df9';
+const API_KEY = '';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 const WeatherIcon = ({ type, size = 24, className = "" }) => {
